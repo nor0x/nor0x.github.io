@@ -1,0 +1,49 @@
+/* fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro: 400, 300);
+:root {
+    --color: #11f930;
+}
+
+html,
+body {
+    background: #222;
+    color: white;
+    font-family: 'Source Code Pro', 'Inconsolata', monospace;
+}
+
+#gutter {
+    display: inline-block;
+    width: 5%;
+    height: 100vh;
+}
+
+#container {
+    display: inline-block;
+    margin-top: 3em;
+    width: 95%;
+    max-width: 95%;
+    float: right;
+}
+
+#text {
+    display: inline-block;
+    margin: .8em 0;
+}
+
+.cursor {
+    display: inline-block;
+    height: 1.2em;
+    width: .5em;
+    background: var(--color);
+    margin-top: .3em;
+    margin-left: -.5em;
+}
+
+.prompt {
+    color: var(--color);
+}
+
+.hide {
+    display: none;
+}
